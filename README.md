@@ -106,4 +106,3 @@ NGINX 오픈소스 기반 reverse proxy & load balancer 프로젝트
 
 ## 참고
 - [nginx official document](https://docs.nginx.com)
-- [Create a new SSH key pair for GitLab CI/CD](https://gitlab.danal.co.kr/fs-solution/gitlab-ci-cd-example/wikis/Create-a-new-SSH-key-pair)
