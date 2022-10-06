@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+#set -x
+
+if ! id ${uname} &>/dev/null; then
+  addgroup -g ${gid} -S ${gname}
+  adduser -S -D -H -u ${uid} -h /var/cache/nginx -s /sbin/nologin -G ${gname} -g ${gname} ${uname}
+fi
