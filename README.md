@@ -33,7 +33,7 @@ NGINX 오픈소스 기반 reverse proxy & load balancer 프로젝트
     1. git project clone
 
         ``` bash
-        git clone https://gitlab.danal.co.kr/fs-solution/nginx.git
+        git clone https://gitlab.pyoseyeol.co.kr/pyoseyeol/nginx.git
         ```
     2. 프로젝트 디렉토리로 이동
         ``` bash
