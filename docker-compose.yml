@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   nginx:
-    image: harbor.danal.co.kr/docker_hub/library/nginx:1.22.0-alpine
-    #image: harbor.danal.co.kr/docker_hub/nginxinc/nginx-unprivileged:1.22.0-alpine
+    image: harbor.pyoseyeol.co.kr/docker_hub/library/nginx:1.22.0-alpine
+    #image: harbor.pyoseyeol.co.kr/docker_hub/nginxinc/nginx-unprivileged:1.22.0-alpine
     container_name: nginx-reverse-proxy
     network_mode: host
     restart: always
